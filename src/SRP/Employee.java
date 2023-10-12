@@ -1,5 +1,8 @@
 package SRP;
 
+/**
+ * Класс Работник со своими полями и гет/сет методами.
+ */
 public class Employee {
     private String name;
     private String dol;

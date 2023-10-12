@@ -1,5 +1,8 @@
 package ISP;
 
+/**
+ * Класс Cube реализует интерфейс Shape3D. Для него характерен поиск площади сторон и объема фигруы.
+ */
 public class Cube implements Shape3D {
     private int length;
 
