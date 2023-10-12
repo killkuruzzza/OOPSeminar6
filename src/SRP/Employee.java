@@ -1,6 +1,8 @@
 package SRP;
 
 public class Employee {
+    //    Класс имеет достаточную рабочую логику и отвественность, поэтому метод по
+//    расчету заработной платы лучше реализовать в другом классе
     private String name;
     private String dol;
     public String getName() {
