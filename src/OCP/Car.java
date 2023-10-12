@@ -1,5 +1,8 @@
 package OCP;
 
+/**
+ * Класс Car расширяет класс Vehicle.
+ */
 public class Car extends Vehicle{
     public Car(int maxSpeed) {
         super(maxSpeed, "Car");

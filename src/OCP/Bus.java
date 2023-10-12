@@ -1,5 +1,7 @@
 package OCP;
-
+/**
+ * Класс Bus расширяет класс Vehicle.
+ */
 public class Bus extends Vehicle{
     @Override
     public double calculateAllowedSpeed() {

@@ -1,5 +1,9 @@
 package SRP;
 
+/**
+ * Отделяем логику вычисления ЗП, чтобы не менять класс Employee в будущем при изменении правил вычисления зарплаты.
+ * Single response для класса EmployeeSalaryCalculate - это вычислять ЗП.
+ */
 public class EmployeeSalaryCalculate {
     private int baseSalary;
 

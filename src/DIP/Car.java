@@ -1,5 +1,8 @@
 package DIP;
 
+/**
+ * Класс Car - модуль верхнего уровня. Он зависит от абстракции Engine.
+ */
 public class Car {
     public Engine engine;
 

@@ -1,5 +1,9 @@
 package OCP;
 
+/**
+ * Классы Car & Bus наследуются от класса Vehicle. Он остается неизменным, то есть закрытым для модификации,
+ * но доступен для расширения(что и делают его дочерние классы).
+ */
 public class Vehicle {
     private int maxSpeed;
     private String type;
