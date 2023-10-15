@@ -1,6 +1,8 @@
 package ISP;
 
-public class Cube implements Shape3D {
+public class Cube implements Shape, Shape3D {
+    // Этот класс использует интерфейс Shape и Shape3D  для подсчета площади
+    // и объема.
     private int length;
 
     public Cube(int length) {

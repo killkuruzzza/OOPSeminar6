@@ -1,6 +1,9 @@
 package ISP;
 
 public class Circle implements Shape {
+    // Этот класс использует только интерфейс Shape для подсчета площади,
+    // окружности не нужен метод вычесления объема, поэтому интерфейсы
+    // разделены.
     private int radius;
 
     public Circle(int radius) {
