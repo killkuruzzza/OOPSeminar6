@@ -1,6 +1,8 @@
 package LSP;
 
 public class Square extends QuadRangle{
+    // Класс расширяет QuadRangle, добавили поле, переопределили метод нахождения
+    // площади.
     private int length;
 
     public Square(int length) {
